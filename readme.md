@@ -2,7 +2,7 @@
     - `optimizer.target`の子パラメータの`UpdateRule`の`lr`を一括更新
     - `model.conv1`の子パラメータの`UpdateRule`の`lr`を一括更新
     - (子パラメータの名称とその`update_rule.hyperparam`の全表示)
-
+    - (Hyperparameterクラスから木構造を排除する)
 
 - draft1.py
     - 最も直感的な操作を目指した
